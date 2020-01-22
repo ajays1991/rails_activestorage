@@ -1,0 +1,8 @@
+<h2>Story Title: <br> <%=@story.title%></h2>
+<h2>Story Description: <br> <%=@story.description%></h2>
+<p>
+	<%= image_tag @story.image %>
+</p>
+<p>
+	<%= image_tag @story.image.variant(resize_to_limit: [500, 400], rotate: 90)%>
+</p>
