@@ -8,8 +8,8 @@ local:
 
 amazon:
   service: S3
-  access_key_id: AKIAIH4EXTU4UR3KCRXA
-  secret_access_key: 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
+  access_key_id: "*******************************"
+  secret_access_key: "*****************************"
   region: us-east-1
   bucket: activestorageajay
 
